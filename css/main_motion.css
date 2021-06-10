@@ -1,0 +1,54 @@
+/* <!-- 21861092_이아현--> */
+
+
+.title_wrap {
+  position: relative;
+
+}
+
+.title {
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+
+}
+
+.title h1{
+  margin: 0 auto;
+  padding-top: 25%;
+  text-align: center;
+  font-size: 5em;
+}
+
+
+.title h1 a {
+  text-decoration: none;
+  color: #00da12;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.title h1 a:hover {
+  color: white;
+
+}
+
+.title h1 a:active {
+  color: #00da12;
+}
+
+#video {
+  object-fit: cover;
+  width: 100%;
+  margin: 0; auto;
+  z-index: -1;
+  display: block;
+}
+
+.back {
+  background-color: #111111;
+  width: 100%;
+  height: 1000px;
+  display: block;
+}

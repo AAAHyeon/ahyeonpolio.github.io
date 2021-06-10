@@ -1,0 +1,171 @@
+/* <!-- 21861092_이아현--> */
+.header_wrap {
+
+position: fixed;
+width: 100%;
+
+}
+
+
+
+
+
+.header {
+  position: relative;
+  height: 40px;
+  padding: 18px 4%;
+  background-color: #111111;
+}
+
+header .logo {
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+header .logo a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+header .logo a:hover {
+  color: #00da12;
+}
+
+/*
+.header #top_menu {
+  float: right;
+  width: 40%;
+  padding-top: 10px;
+} */
+
+
+.header .top_menu {
+  display: none;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 70%;
+  list-style-type: none;
+  width: 40%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.top_menu li {
+  list-style-type: none;
+}
+
+.top_menu li a {
+  border-bottom: solid 1px #6E6E6E;
+  display: block;
+  padding: 16px 0 16px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  margin-right: 14%;
+  margin-top: 16px;
+}
+
+.top_menu li a:hover {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  color: #00da12;
+  font-weight: 900;
+  border-bottom: 0.5em solid;
+
+}
+
+.header .menu_btn {
+  float: right;
+  width: 40px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.header .menu_btn span {
+  display: block;
+  width: 70%;
+  height: 5px;
+  background: #ffffff;
+}
+
+
+
+.header .menu_btn span:nth-child(2) {
+  margin: 10px 0;
+}
+
+/* 반응형 */
+
+
+@media all and (min-width:900px) {
+  .header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 18px 2%;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: rgba(17, 17, 17, 0.3);
+  }
+  .header .logo {
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+
+  }
+  .header nav {
+
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 20%;
+    margin-right: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .header .top_menu {
+    display: grid !important;
+    display: block;
+    grid-template-columns: 20% 20% 20%;
+    /* 메뉴 열을 20% 3줄 */
+    position: static;
+    height: 40px;
+    width: auto;
+    background: none;
+  }
+  .header .top_menu li {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-bottom: 0;
+  }
+
+  .header .menu_btn {
+    display: none;
+  }
+}
+
+.top_menu li a {
+  border-bottom: solid 1px #6E6E6E;
+  display: block;
+  padding:0;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  margin-right: 14%;
+}
+
+.top_menu li a:hover {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  color: #00da12;
+  font-weight: 900;
+  border-bottom: 0.5em solid;
+
+}

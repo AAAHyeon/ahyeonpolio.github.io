@@ -1,0 +1,46 @@
+/* <!-- 21861092_이아현--> */
+
+* {
+  background-color: #111111;
+}
+
+.menu {
+object-fit: cover;
+width: 100%;
+
+}
+
+.menu ul {
+  margin:0 auto;
+  padding-top: 12%;
+  padding-left: 12%;
+
+
+}
+
+
+.menu li a {
+  text-decoration: none;
+  color: #00da12;
+  font-size: 4em;
+}
+
+.menu li a:hover {
+  transition-duration: 0.1s;
+  transition-timing-function:ease;
+  text-decoration: none;
+  color: white;
+  font-size: 4em;
+}
+
+@media all and (min-width:1920px) {
+.menu li a {
+  font-size: 7em;
+}
+
+.menu li a:hover {
+  font-size: 7em;
+}
+
+
+}

@@ -1,0 +1,113 @@
+/* <!-- 21861092_이아현--> */
+
+
+#menu1 a {
+  color: #00da12;
+  font-weight: 900;
+  border-bottom: 0.5em solid;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.love_wrap {
+
+  object-fit: cover;
+  width: 100%;
+  height: 1920px;
+  margin: auto;
+  background-color: #111111;
+  z-index: -5;
+
+}
+
+.love_img img {
+
+  object-fit: cover;
+  margin: auto;
+  display: block;
+  width: 70%;
+  padding-top: 20px;
+
+}
+
+.text .title h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text .txt {
+  padding: 0 16%;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+@media all and (min-width:900px) {
+  .love_wrap {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    padding-top: 80px;
+  }
+
+  .love_img img {
+    object-fit: cover;
+    text-align: left;
+  }
+
+  .text {
+    object-fit: cover;
+    width: 100%;
+    padding-top: 280px;
+  }
+
+  .text .title h1 {
+    text-align: left;
+    font-size: 4em;
+  }
+
+  .text .txt {
+    padding: 0;
+    text-align: left;
+    font-size: 1em;
+  }
+
+  @media all and (min-width:1920px) {
+    .love_wrap {
+      display: grid;
+      grid-template-columns: 50% 40%;
+      padding-top: 140px;
+    }
+
+    .love_img img {
+      object-fit: cover;
+      text-align: left;
+    }
+
+    .text {
+      object-fit: cover;
+      width: 100%;
+      padding-top: 280px;
+    }
+
+    .text .title h1 {
+      text-align: left;
+      font-size: 4em;
+    }
+
+    .text .txt {
+      padding: 0;
+      text-align: left;
+      font-size: 1em;
+    }
+
+
+}

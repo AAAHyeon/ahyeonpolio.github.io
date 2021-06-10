@@ -1,0 +1,32 @@
+/* <!-- 21861092_이아현--> */
+.view {
+  object-fit: cover;
+  width: 100%;
+  margin: auto;
+  height: 86px;
+  background-color: white;
+
+}
+
+
+.project img {
+  object-fit: cover;
+  width: 80%;
+  margin: auto;
+  padding: 0;
+  display: block;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#menu2 a {
+  color: #00da12;
+  font-weight: 900;
+  border-bottom: 0.5em solid;
+}
